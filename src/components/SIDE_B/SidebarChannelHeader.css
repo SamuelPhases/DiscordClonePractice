@@ -1,0 +1,18 @@
+.sidebar--channelHeader {
+  /* background-color: #229; */
+  display: flex;
+  align-items: center;
+  color: #828e97;
+  padding: 0.5em 0em;
+}
+
+.sidebar--channelHeader > h5 {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.sidebar--channelHeader > .MuiSvgIcon-root {
+  font-size: 0.8rem;
+  margin: 0em 0.5em;
+  margin-right: 0.2em;
+}

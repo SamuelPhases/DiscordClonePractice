@@ -1,0 +1,136 @@
+.change--log {
+  background-color: #000000ac;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.change--scroll {
+  height: 470px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.change--log--container {
+  width: 40%;
+  height: 90%;
+  overflow: hidden;
+  background-color: #36393f;
+  position: relative;
+  padding: 1em;
+  border-radius: 15px;
+}
+
+.change--log--header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1em;
+}
+
+.change--log--header > div > h2 {
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.change--log--header > div > p {
+  font-size: 0.7rem;
+  color: #b9bbbe;
+}
+
+.change--log--header > div > .MuiSvgIcon-root {
+  color: #b9bbbe;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+.change--log--box {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1em 0em;
+}
+
+.change--log--content {
+}
+
+.change--log--content--header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.change--log--content--header > h2 {
+  color: #43b581;
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-right: 1em;
+}
+
+.change--log--content--header.header--red > h2 {
+  color: #f04747;
+}
+
+.change--log--content--header.header--red > .line {
+  background-color: #f04747;
+}
+
+.change--log--content--header.header--gold > h2 {
+  color: #faa61a;
+}
+
+.change--log--content--header.header--gold > .line {
+  background-color: #faa61a;
+}
+.change--log--content--header > .line {
+  height: 1px;
+  flex: 0.9;
+  background-color: #43b581;
+}
+
+.change--log--content--box {
+  padding: 0.5em 1.2em;
+}
+
+.change--log--content--box > ul > li > span {
+  color: #00b0f4;
+  cursor: pointer;
+}
+
+.change--log--content--box > ul > li {
+  color: #b9bbbe;
+  font-size: 0.9rem;
+  text-align: justify;
+  margin: 0em;
+  margin-bottom: 1em;
+}
+
+.change--log--social--links {
+  padding: 1em 0em;
+  /* background-color: #928; */
+  display: flex;
+  align-items: center;
+}
+
+.change--log--social--links > p {
+  margin-left: 1em;
+  font-size: 0.7rem;
+  color: #dcddde;
+}
+
+.change--log--social--links > .MuiSvgIcon-root {
+  color: #b9bbbe;
+  margin-right: 0.5em;
+  cursor: pointer;
+}

@@ -1,0 +1,145 @@
+.side--a {
+  background-color: #202225;
+  height: 100%;
+  flex: 0.05;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add--box,
+.logo--box,
+.download--box {
+  height: 3rem;
+  border-radius: 50%;
+  width: 3rem;
+  margin: 1em 0em;
+  display: grid;
+  place-items: center;
+  transition: all 0.3s ease;
+  background-color: #36393f;
+  cursor: pointer;
+  color: #43b581;
+}
+
+.logo--box > img {
+  width: 70%;
+}
+
+.side--a > div:hover {
+  border-radius: 10px;
+}
+
+.side--a > div > .MuiSvgIcon-root {
+  font-size: 1.8rem;
+}
+
+.icon--box {
+  height: 4rem;
+  width: 4rem;
+  margin: 1em 0em;
+  position: relative;
+  transition: all 0.3s ease;
+  /* background-color: #36393f; */
+  cursor: pointer;
+  color: #43b581;
+}
+
+.dot {
+  border-radius: 50%;
+  position: absolute;
+  height: 0.3rem;
+  width: 0.3rem;
+  /* background-color: #9f62cf; */
+  background-color: #7b4da4;
+}
+.dot:nth-child(1) {
+  top: 5%;
+  left: 5%;
+}
+.dot:nth-child(2) {
+  top: 10%;
+  right: 40%;
+}
+.dot:nth-child(3) {
+  bottom: 10%;
+  left: 20%;
+}
+.dot:nth-child(4) {
+  bottom: 10%;
+  right: 20%;
+}
+.dot:nth-child(5) {
+  bottom: 50%;
+  right: 5%;
+}
+.dot:nth-child(6) {
+  bottom: 50%;
+  right: 80%;
+}
+.dot:nth-child(7) {
+  top: 30%;
+  right: 30%;
+}
+.dot:nth-child(8) {
+  top: 10%;
+  right: 10%;
+}
+.dot:nth-child(9) {
+  top: 10%;
+  left: 20%;
+}
+.dot:nth-child(10) {
+  top: 10%;
+  right: 40%;
+}
+.dot:nth-child(11) {
+  bottom: 50%;
+  left: 10%;
+}
+.dot:nth-child(12) {
+  bottom: 15%;
+  right: 10%;
+}
+.dot:nth-child(13) {
+  bottom: 5%;
+  right: 50%;
+}
+.dot:nth-child(14) {
+  bottom: 50%;
+  right: 80%;
+}
+.dot:nth-child(15) {
+  top: 30%;
+  right: 30%;
+}
+.dot:nth-child(16) {
+  top: 80%;
+  right: 90%;
+}
+
+.icon--box > h2 {
+  position: absolute;
+  top: 10%;
+  font-size: 2rem;
+  color: #964ec4;
+  left: 15%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.icon--box > h2:hover {
+  /* transform: translate(-50%, -50%); */
+  transform: rotate(360deg);
+  color: #43b581;
+  animation: rotateIcon 2s ease infinite;
+}
+
+@keyframes rotateIcon {
+  0% {
+    transform: rotate(0deg);
+  }
+  360% {
+    transform: rotate(360deg);
+  }
+}

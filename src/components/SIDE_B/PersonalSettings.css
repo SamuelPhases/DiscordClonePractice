@@ -1,0 +1,93 @@
+.personal--settings {
+  /* background-color: #00000070; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.personal--settings--content {
+  background-color: #18191c;
+  width: 18%;
+  left: 5.8%;
+  top: 8.5%;
+  position: absolute;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+.personal--settings--content > div {
+  margin: 0.4em 0em;
+  /* background-color: #828; */
+}
+
+.boost {
+}
+
+.boost--server > .MuiSvgIcon-root {
+  color: #ff73fa;
+  transform: rotate(-30deg);
+}
+
+.boost--server:hover .MuiSvgIcon-root {
+  color: #fff;
+}
+.personal--settings--content > .single--item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  color: #b9bbbe;
+}
+
+.single--line {
+  width: 100%;
+  height: 1px;
+  background-color: hsla(0, 0%, 100%, 0.06);
+}
+.personal--settings--content h4 {
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.personal--settings--content .MuiSvgIcon-root {
+  font-size: 1.1rem;
+}
+
+.personal--settings--content > .single--item.item--blue {
+  color: #677bc4;
+}
+.personal--settings--content > .single--item.item--red {
+  color: #f04747;
+}
+
+.person--invite {
+  transform: rotateY(180deg);
+}
+
+.personal--settings--content > .single--item:hover {
+  color: #fff;
+  background-color: #5c6fb1;
+}
+
+.group--items > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em;
+  color: #b9bbbe;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.group--items > div:hover {
+  color: #fff;
+  background-color: #5c6fb1;
+}

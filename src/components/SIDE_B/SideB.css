@@ -1,0 +1,170 @@
+.side--b {
+  background-color: #2f3136;
+  height: 100%;
+  flex: 0.2;
+  overflow: hidden;
+  position: relative;
+}
+
+.side--bHeader {
+  color: #fff;
+  display: flex;
+  padding: 0.8em;
+  align-items: center;
+  /* width: 90%; */
+  /* background-color: #928; */
+  justify-content: space-between;
+  padding-right: 0.7em;
+  cursor: pointer;
+  border-bottom: 1px solid #202225;
+  margin-bottom: 0.5em;
+}
+
+.side--bHeader > div {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.side--bHeader > div > .MuiSvgIcon-root {
+  font-size: 1rem;
+  margin-top: 0.15em;
+}
+
+.side--bHeader > div > h4 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding-left: 0.3em;
+}
+
+.sideb--channels {
+  height: 80%;
+  overflow: auto;
+  /* background-color: #857; */
+}
+
+.sideb--profile {
+  background-color: #292b2f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 10%;
+}
+
+.sideb--profile--splitA {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sideb--profile--splitB {
+  display: flex;
+  align-items: center;
+}
+
+.sideb--profile--imgBox {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0em 0.5em;
+}
+
+.sideb--profile--imgBox > .img--container {
+  background-color: #faa61a;
+  border-radius: 50%;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.sideb--profile--imgBox > .img--container > img {
+  object-fit: contain;
+  position: absolute;
+  width: 30px;
+}
+
+.sideb--profile--imgBox > .MuiSvgIcon-root,
+.icon--change > .MuiSvgIcon-root {
+  position: absolute;
+  background-color: #292b2f;
+  border-radius: 50%;
+  bottom: -5%;
+  /* color: ; */
+  right: -10%;
+  font-size: 0.9rem;
+  /* color: #43b581; */
+}
+
+.bri {
+  color: #faa61a;
+  transform: rotate(30deg);
+}
+
+.onl {
+  color: #43b581;
+}
+
+.rci {
+  color: #f04747;
+}
+
+.rbu {
+  color: #747f8d;
+}
+
+.sideb--profile--details > h3 {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.sideb--profile--details > p {
+  color: #b9bbbe;
+  font-size: 0.8rem;
+}
+
+.sideb--profile--splitB {
+  /* background-color: #001876; */
+}
+.sideb--profile--splitB > div > .MuiSvgIcon-root {
+  color: #b9bbbe;
+}
+.sideb--profile--splitB > div > .MuiSvgIcon-root {
+  color: #b9bbbe;
+  margin: 0em 0.3em;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.sideb--profile--splitB > div {
+  width: 2rem;
+  height: 2rem;
+  transition: all 0.3s ease;
+  display: grid;
+  border-radius: 5px;
+  place-items: center;
+  margin-right: 0.3em;
+}
+
+.sideb--profile--splitB > div:hover {
+  background-color: #36393f;
+}
+.mute--mic {
+  position: relative;
+  /* margin-top: 0.2em; */
+  cursor: pointer;
+}
+.mute--mic::before {
+  content: "";
+  position: absolute;
+  height: 1.8rem;
+  width: 2px;
+  right: 50%;
+  top: 0%;
+  background-color: #f04747;
+  transform: rotate(45deg);
+}

@@ -1,0 +1,76 @@
+.personnel--container {
+  /* background-color: #487; */
+  color: #fff;
+  overflow: auto;
+  height: 92.5%;
+  padding: 0.5em;
+}
+
+.personnel--header {
+  padding: 0.8em;
+  /* background-color: #280988; */
+}
+
+.personnel--header > h3 {
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #8e9297;
+}
+
+.personnel--info:hover {
+  background-color: #36393f;
+}
+.personnel--info {
+  display: flex;
+  padding: 0.8em;
+  align-items: center;
+  /* background-color: #959; */
+  /* margin-bottom: 1em; */
+  cursor: pointer;
+}
+
+.personnel--info--dp {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  /* background-color: #029; */
+  margin-right: 0.5em;
+  border-radius: 50%;
+  /* overflow: hidden; */
+}
+
+.personnel--info--dp > div {
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #266;
+}
+.personnel--info--dp > .MuiSvgIcon-root {
+  color: #43b581;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 0%;
+  right: -10%;
+  background-color: #2f3136;
+  border-radius: 50%;
+}
+
+.personnel--info--dp > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.personnel--info--details > .name {
+  font-size: 0.9rem;
+  color: #e91e63;
+  /* font-weight: 500; */
+}
+
+.personnel--info--details > .status {
+  font-size: 0.7rem;
+  color: #8e9297;
+}

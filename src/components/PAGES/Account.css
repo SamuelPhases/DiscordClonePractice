@@ -1,0 +1,254 @@
+.setting--content {
+  padding: 0em 2em;
+  flex: 0.8;
+  background-color: #36393f;
+  position: relative;
+}
+
+.setting--content--header {
+  padding-left: 1em;
+}
+
+.setting--content--header h2,
+.setting--password h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-top: 0.2em;
+  color: #fff;
+  font-weight: 500;
+}
+
+.setting--content--edit {
+  padding: 1em;
+}
+
+.setting--content--container {
+  background-color: #2f3136;
+  padding: 1em;
+  border-radius: 10px;
+  position: relative;
+}
+
+.setting--content--edit--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting--content--split {
+  display: flex;
+  align-items: center;
+}
+
+.setting--profile--dp {
+  width: 100%;
+  height: 100%;
+  background-color: #d89f12;
+  border-radius: 50%;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.setting--profile--dp:hover {
+  opacity: 0.5;
+}
+
+.setting--profile--dp > img {
+  width: 80%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.setting--icon {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  margin-right: 0.3em;
+  position: relative;
+}
+
+.setting--icon > .MuiSvgIcon-root {
+  position: absolute;
+  right: 5%;
+  top: -10%;
+  color: #bed49c;
+  cursor: pointer;
+  /* pointer-events: none; */
+}
+.setting--content--split > h2 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.setting--content--split > span {
+  font-size: 1rem;
+  display: inline-block;
+  padding-left: 0.5em;
+  margin-top: 0.2em;
+  color: #747f8d;
+}
+
+.setting--content--edit--header > button {
+  border-radius: 5px;
+  background-color: #747f8d;
+  border: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.setting--content--edit--body {
+  background-color: #36393f;
+  margin: 1em 0em;
+  position: relative;
+  padding: 0em;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.setting--content--container::after {
+  content: "";
+  position: absolute;
+  bottom: -5%;
+  left: 0%;
+  width: 100%;
+  height: 1px;
+  background-color: hsla(0, 0%, 100%, 0.06);
+}
+
+.setting--content--edit--body > .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin: 1em 0em; */
+  padding: 1em;
+}
+
+.setting--content--edit--body > .row > .left > .header {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: #8e9297;
+  font-weight: 500;
+}
+
+.setting--content--edit--body > .row > .left > h3 {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.setting--content--edit--body > .row > .left > h3 > span {
+  font-weight: 300;
+  color: #747f8d;
+  padding-left: 0.3em;
+}
+
+.setting--content--edit--body > .row > button {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  border: none;
+  background-color: #747f8d;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 3px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.setting--content--edit--body > .row > .left > div {
+  display: flex;
+  align-items: center;
+}
+
+.setting--content--edit--body > .row > .left > div > h3 {
+  margin-right: 0.3em;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.setting--content--edit--body > .row > .left > div > p {
+  color: #00b0f4;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  margin-top: 0.1em;
+  cursor: pointer;
+}
+
+.setting--password > h2 {
+  /* margin-left: -1em; */
+}
+
+.setting--password {
+  margin: 1em 0em;
+  padding: 0.5em 0em;
+  margin-bottom: 0em;
+}
+
+.setting--password .pwd--reset {
+  padding: 0.5em 1.1em;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin: 0.5em 0em;
+  color: #fff;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 3px;
+  background-color: #7289da;
+}
+
+.tfa {
+}
+
+.tfa > .title {
+  color: #8e9297;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  padding: 0.5em 0em;
+}
+
+.tfa > p:nth-child(2) {
+  color: #b9bbbe;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.tfa--btn {
+  background-color: #7289da;
+}
+.btn {
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.5em 1.1em;
+  border: none;
+  margin-top: 0.5em;
+  border-radius: 3px;
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+.remove--account > .disable {
+  background-color: #f04747;
+  color: #fff;
+}
+
+.remove--account > .delete {
+  border: 1px solid #f04747;
+  background-color: transparent;
+  color: #f04747;
+}
+
+.setting--content > .close--setting .MuiSvgIcon-root {
+  font-size: 3rem;
+}
+.setting--content > .close--setting {
+  position: absolute;
+  top: 3%;
+  right: -10%;
+  color: #dcddde;
+  cursor: pointer;
+}

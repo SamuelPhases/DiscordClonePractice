@@ -1,0 +1,44 @@
+.chat--page {
+  height: 100%;
+  /* background-color: turquoise; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.chat--page--scroll {
+  flex: 0.9;
+  overflow: auto;
+}
+
+.chat--pageInput {
+  width: 95%;
+  background-color: #40444b;
+  margin: auto;
+  display: flex;
+  /* position: absolute; */
+  height: 10vh;
+  padding: 1em 0em;
+  align-items: center;
+  /* padding: 1em; */
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.chat--pageInput > input {
+  flex: 1;
+  font-family: inherit;
+  outline: none;
+  border: none;
+  word-wrap: break-word;
+  resize: none;
+  background-color: transparent;
+  color: #dcddde;
+  padding: 0.5em;
+  font-size: 0.9rem;
+}
+
+.chat--pageInput > .MuiSvgIcon-root {
+  margin: 0em 0.5em;
+  color: #b9bbbe;
+}

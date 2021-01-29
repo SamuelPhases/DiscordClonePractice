@@ -1,0 +1,321 @@
+.profile {
+  background-color: #00100090;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.profile--content {
+  width: 45%;
+  height: 60%;
+  background-color: #2f3136;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+.profile--header {
+  background-color: #202225;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.06);
+}
+
+.profile--header--dp {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #00000010;
+  position: relative;
+}
+
+.profile--header--dp > img {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile--header--dp > .MuiSvgIcon-root {
+  font-size: 1.5rem;
+  color: #43b581;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  background-color: #202225;
+}
+
+.profile--header--details {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.profile--header--info > h2 {
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding-left: 0.5em;
+  color: #fff;
+}
+
+.profile--header--info > h2 span {
+  color: #b9bbbe;
+  font-weight: 400;
+}
+
+.profile--header--btn {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.profile--header--btn > div > .MuiSvgIcon-root {
+  color: #b9bbbe;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 0.5em;
+}
+
+.profile--header--btn > div > .MuiSvgIcon-root:hover {
+  color: #fff;
+}
+.profile--header--btn > button {
+  padding: 0.7em 1.4em;
+  font-weight: 500;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  background-color: #43b581;
+  border: none;
+  border-radius: 3px;
+}
+
+.profile--info--tab {
+  display: flex;
+  align-items: center;
+  background-color: #202225;
+  padding: 0em 1em;
+}
+
+.focused--tab {
+  border-bottom: 3px solid #fff;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.profile--info--tab > h4 {
+  padding: 1em 1em;
+  color: #b9bbbe;
+  font-weight: 400;
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.profile--info--tab--content {
+  /* background-color: darkcyan; */
+}
+
+.user--info {
+  /* background-color: darkred; */
+  padding: 1em;
+  width: 100%;
+}
+
+.user--info--header {
+  padding-bottom: 1em;
+  /* background-color: mediumblue; */
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.06);
+}
+
+.user--info--header > h5 {
+  color: #8e9297;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding-bottom: 0.5em;
+}
+
+.user--info--header > textarea {
+  width: 100%;
+  background-color: transparent;
+  resize: none;
+  font-family: inherit;
+  border: none;
+  color: #dcddde;
+  outline: none;
+  padding: 0.2em;
+  border-radius: 3px;
+}
+
+.user--info--header > textarea:focus {
+  background-color: #202225;
+}
+
+.user--info--body {
+  /* background-color: lightslategrey; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.5em;
+}
+
+.user--info--body > .row--link {
+  /* background-color: #958; */
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid hsla(0, 0%, 100%, 0.06);
+  border-radius: 5px;
+}
+
+.user--info--body > .row--link > .site--logo {
+  display: flex;
+  align-items: center;
+}
+
+.user--info--body > .row--link > .site--logo > .MuiSvgIcon-root {
+  margin-right: 0.5em;
+  font-size: 1.1rem;
+}
+.user--info--body > .row--link > .site--logo > div {
+  display: flex;
+  align-items: center;
+}
+
+.user--info--body > .row--link > .site--logo > div > p {
+  font-size: 0.9rem;
+  color: #dcddde;
+}
+
+.git--acc {
+  color: #fff;
+}
+
+.tweet--acc {
+  color: #1da1f2;
+}
+
+.reddit--acc {
+  color: #ff4500;
+}
+
+.user--info--body > .row--link > .site--logo > div > .MuiSvgIcon-root {
+  color: #00bfa2;
+  font-size: 1rem;
+  margin-top: 0.1em;
+  margin-left: 0.4em;
+}
+
+.user--info--body > .row--link > .MuiSvgIcon-root {
+  font-size: 1rem;
+  color: #b9bbbe;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.mutual--server {
+  /* background-color: darksalmon; */
+  padding: 0.5em;
+}
+
+.mutual--server .server--logo img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.mutual--server .server--logo {
+  width: 3rem;
+  height: 3rem;
+  background-color: #00000050;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+
+.mutual--server > div {
+  display: flex;
+  align-items: center;
+  padding: 0.4em 0.8em;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.mutual--server > div:hover {
+  background-color: #00000050;
+}
+.mutual--server > div > h2 {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #dcddde;
+  text-transform: capitalize;
+}
+
+.mutual--frnds {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 1em;
+}
+
+.mutual--frnds > img {
+  width: 40%;
+}
+
+.mutual--frnds > p {
+  color: #b9bbbe;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.pop--container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #00000010;
+  height: 100%;
+  width: 100%;
+}
+
+.pop--content {
+  width: 12%;
+  height: fit-content;
+  background-color: #18191c;
+  border-radius: 5px;
+  position: absolute;
+  top: 25%;
+  right: 16%;
+  padding: 0.5em;
+}
+
+.pop--content > p {
+  padding: 0.3em 0.5em;
+  text-transform: capitalize;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.pop--content > .red-c {
+  color: #f04747;
+  transition: 0.3s ease;
+}
+
+.pop--content > .red-c:hover {
+  background-color: #f04747;
+  color: #fff;
+}
+.pop--content > .send-c {
+  color: #b9bbbe;
+}
+
+.pop--content > .send-c:hover {
+  background-color: #5c6fb1;
+  color: #fff;
+}

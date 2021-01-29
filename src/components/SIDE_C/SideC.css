@@ -1,0 +1,12 @@
+.side--c {
+  background-color: #36393f;
+  height: 100%;
+  flex: 0.6;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.side--c--big {
+  flex: 0.75;
+  transition: all 0.3s ease;
+}

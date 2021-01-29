@@ -1,0 +1,82 @@
+.connection--content {
+  height: 100%;
+  width: 100%;
+  background-color: #36393f;
+  padding: 3.6em 3em;
+  position: relative;
+}
+
+.connection--content > h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.connection--content--box {
+  margin: 2em 0em;
+  background-color: #292b2f;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.connection--content--box > .title {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #8e9297;
+}
+
+.connection--content--box > p:nth-child(2) {
+  font-size: 0.8rem;
+  margin-top: 0.5em;
+  color: #dcddde;
+}
+
+.connection--row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+.connection--row > div {
+  width: 3rem;
+  height: 3rem;
+  background-color: #2f3136;
+  margin-right: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.connection--row > div > .MuiSvgIcon-root {
+  font-size: 2rem;
+}
+
+.yt > .MuiSvgIcon-root {
+  color: #d9252a;
+}
+.rd > .MuiSvgIcon-root {
+  color: #ff4500;
+}
+.fb > .MuiSvgIcon-root {
+  color: #2d3283;
+}
+.tw > .MuiSvgIcon-root {
+  color: #1da1f2;
+}
+.gh > .MuiSvgIcon-root {
+  color: #191717;
+}
+
+.close--setting--connection > .MuiSvgIcon-root {
+  font-size: 3rem;
+}
+.close--setting--connection {
+  position: absolute;
+  right: -10%;
+  top: 3%;
+  color: #dcddde;
+  cursor: pointer;
+}

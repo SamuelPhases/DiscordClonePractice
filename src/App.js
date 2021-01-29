@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React,{useState} from 'react'
 import './App.css';
+import SideA from './components/SIDE_A/SideA';
+import SideB from './components/SIDE_B/SideB';
+import SideC from './components/SIDE_C/SideC';
+import SideD from './components/SIDE_D/SideD';
 
 function App() {
+  
+  const [showList,setShowList]   = useState(true)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+
+      <SideA />
+      <SideB />
+      <SideC setShowList={setShowList} showList={showList}  />
+      <SideD setShowList={setShowList} showList={showList}  />
     </div>
   );
 }

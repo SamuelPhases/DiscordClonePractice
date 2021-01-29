@@ -1,0 +1,109 @@
+.presence--container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #00000090;
+  z-index: 2;
+}
+
+.presence--content {
+  background-color: #18191c;
+  width: 17.5%;
+  height: fit-content;
+  position: absolute;
+  bottom: 10%;
+  left: 5.5%;
+  padding: 0.5em;
+}
+
+.dnd > div {
+  display: flex;
+  align-items: center;
+  /* background-color: olive; */
+}
+
+.presence--content > div > p {
+  width: 87%;
+  text-align: justify;
+  /* background-color: #029; */
+  margin-left: auto;
+  font-size: 0.75rem;
+}
+
+.dnd {
+  padding: 0.5em;
+  color: #b9bbbe;
+}
+
+.presence--content > div {
+  cursor: pointer;
+}
+
+.online {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.06);
+}
+
+.set--status {
+  border-top: 1px solid hsla(0, 0%, 100%, 0.06);
+}
+.online,
+.idle,
+.set--status {
+  display: flex;
+  /* background-color: mediumspringgreen; */
+  padding: 0.5em;
+  margin: 0.2em 0em;
+  align-items: center;
+  color: #b9bbbe;
+}
+
+.presence--content > div:hover {
+  background-color: #00b0f4;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.presence--content > div:hover .MuiSvgIcon-root {
+  color: #fff;
+}
+.dnd:hover {
+  background-color: #00b0f4;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.presence--content div h4 {
+  font-size: 0.8rem;
+  padding-left: 1em;
+  font-weight: 500;
+}
+
+.presence--content > .dnd:hover {
+  color: #fff;
+}
+
+.presence--content div .MuiSvgIcon-root {
+  font-size: 0.8rem;
+}
+.online > .MuiSvgIcon-root {
+  color: #43b581;
+}
+
+.idle > .MuiSvgIcon-root {
+  color: #faa61a;
+  transform: rotate(45deg);
+}
+
+.dnd > div > .MuiSvgIcon-root {
+  color: #f04747;
+}
+
+.dnd > .inv > .MuiSvgIcon-root {
+  color: #747f8d;
+}
+
+.set--status > .MuiSvgIcon-root {
+  color: #b9bbbe;
+}

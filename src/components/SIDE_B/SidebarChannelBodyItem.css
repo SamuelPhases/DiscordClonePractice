@@ -1,0 +1,56 @@
+.sidebar--channelBodyItem {
+  /* background-color: #290; */
+  /* margin-bottom: 2em; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.sidebar--channelBodyItem > .MuiSvgIcon-root {
+  position: absolute;
+  left: -4%;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.sidebar--channelBodyItem--split {
+  width: 93%;
+  left: 5%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  padding: 0.2em 0.5em;
+  /* background-color: #929; */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.sidebar--channelBodyItem--split:hover {
+  background-color: #33363c;
+}
+.sidebar--channelBodyItem--split > .MuiSvgIcon-root {
+  color: #b9bbbe;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  transform: rotateY(180deg);
+  opacity: 0;
+}
+.sidebar--channelBodyItem--split:hover .MuiSvgIcon-root {
+  opacity: 1;
+  /* transform: rotateY(180deg); */
+}
+.sidebar--channelBodyItem--split > div {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar--channelBodyItem--split > div > h1 {
+  font-size: 1.5rem;
+  color: #72767d;
+}
+.sidebar--channelBodyItem--split > div > p {
+  font-size: 0.9rem;
+  padding: 0em 0.8em;
+  color: #fff;
+}
